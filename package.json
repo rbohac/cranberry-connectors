@@ -1,0 +1,12 @@
+{
+  "name": "cranberry-connectors",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Exploring data access and exports from restaurant systems (starting with Toast)",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "toast:explore": "node --env-file=.env scripts/toast/explore.js",
+    "toast:journeys": "node scripts/toast/journeys.js"
+  }
+}
